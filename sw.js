@@ -1,7 +1,3 @@
-// self.addEventListener('pus', () => {
-//     self.registration.sendNotification('test message', {});
-// });
-
 self.addEventListener('push', function(e) {
     var options = {
       body: 'This notification was generated from a push!',
